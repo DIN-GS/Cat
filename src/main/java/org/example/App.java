@@ -8,7 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Cat cat = new Cat("White", 2, "Британська короткошерста");
+        cat.sleeping();
 
     }
 }
